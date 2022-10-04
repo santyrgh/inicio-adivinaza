@@ -1,0 +1,91 @@
+body{
+    text-align: center;
+    color: white;
+    background-color: black;  
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    text-align: center;  
+}
+    
+.div1 { grid-area: 1 / 2 / 2 / 3;
+    background-color: black;
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px 10px white;
+    position:relative;
+    height: 120%;
+    width: 120%;
+    top: 50px;
+}
+
+
+#m{
+    position:absolute;
+    grid-area: 1 / 2 / 2 / 3; 
+    background-color: black;
+    border-radius: 7px;
+box-shadow: 0px 0px 10px 10px white;
+position:relative;
+height: 30%;
+width: 100%;
+top: -40%;
+font-size: 70px;
+
+    
+ }
+
+.div2 { grid-area: 1 / 2 / 2 / 3; 
+        background-color: black;
+        border-radius: 7px;
+    box-shadow: 0px 0px 10px 10px white;
+    position:relative;
+    height: 120%;
+    width: 120%;
+    top: 50px;
+    font-size: 20px;
+    
+ }
+ .div3{
+    grid-area: 1 / 2 / 2 / 3; 
+    background-color: black;
+        border-radius: 7px;
+    box-shadow: 0px 0px 10px 10px white;
+    position:relative;
+    height: 120%;
+    width: 120%;
+    top: 50px;
+    font-size: 20px;
+    
+ }
+    
+   
+ button{
+  border-radius: 10px;
+  background-color: white;
+  font-size: 20px;
+
+}
+input[type="text"], input[type="password"]{
+    text-align: center;
+    border:none;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+captcha{
+    font-size: 20px;
+}
+::placeholder {
+    color:white;
+    outline: none;
+    border-bottom: 1px solid white;
+    
+}
+
+
